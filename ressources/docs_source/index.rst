@@ -6,9 +6,9 @@ Learning material
 Name of the project
 ===================
 
-:Date: October 2021
+:Date: Augustu 2022
 :Authors: Semir Tursunovic
-:Web site: .. ref: www.semir-t.github.io/site_url/
+:Web site: .. ref: www.semir-t.github.io/info-site/
 :Version: 1.0.0
 
 Contents:
