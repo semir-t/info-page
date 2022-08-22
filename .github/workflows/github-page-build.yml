@@ -2,9 +2,9 @@ name: "Github pages build"
 
 on:
   push:
-    branches: [master] 
+    branches: [main] 
   pull_request:
-    branches: [master] 
+    branches: [main] 
 
 
 jobs:
@@ -41,7 +41,7 @@ jobs:
 
        # Deploy to github pages if it's a push on master 
       - name: Deploy to github pages
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         # if: ${{ env.GITHUB_REF == 'refs/heads/master'}}
         uses: s0/git-publish-subdir-action@master
         env:
