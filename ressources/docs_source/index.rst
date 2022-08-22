@@ -1,7 +1,7 @@
 .. _msut-firmware-top:
 
-Learning material
-****************
+Info site
+*********
 
 Name of the project
 ===================
@@ -14,7 +14,12 @@ Name of the project
 Contents:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+
+    introduction
+	project_structure
+	pcb_design
+	firmware_development
 
 Indices and tables
 ==================
